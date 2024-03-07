@@ -247,7 +247,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cbe691f8c47ca8f4db48c896d0283004, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  range: 2
+  range: 1
 --- !u!135 &1468577138
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -460,8 +460,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ca1bedc291a7264aad8b02a639dfef1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hRange: 2
-  vRange: 2
+  hRange: 1
+  vRange: 1
 --- !u!65 &1654631245
 BoxCollider:
   m_ObjectHideFlags: 0

@@ -11,12 +11,11 @@ public class DualAxisExample : MonoBehaviour
     void Update()
     {
         float h = Input.GetAxis("Horizontal");
-        float v = Input.GetAxis("Vertiacal");
+        float v = Input.GetAxis("Vertical");
         float xPos = h * hRange;
         float vPos = v * vRange;
 
         transform.position = new Vector3(xPos, 0, vPos);
-        Debug.Log("Value Returned: " + h.ToString("F2"));
         Debug.Log("Value Returned: " + v.ToString("F2"));
     }
 }
